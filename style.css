@@ -1,0 +1,15 @@
+.card{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+}
+.top{
+    border: 1px solid;
+}
+.number{
+    border: 1px solid;
+}
+.bottom{
+    border: 1px solid;
+
+}
