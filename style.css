@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:green;
+    margin:0;
+}
+
+.card{
+    width:200px;
+    height:300px;
+    background:white;
+    border-radius:12px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:15px;
+    box-shadow:0 6px 12px rgba(0,0,0,0.3);
+    font-size: 80px;
+}
+
+.top{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.bottom{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.number{
+    text-align:center;
+    font-size:100px;
+    font-weight:bold;
+}
+
+.image-top,
+.image-bottom{
+    width:40px;
+}
